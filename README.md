@@ -11,11 +11,11 @@ The dataset used for this analysis comprises **Education Inequality Indicators**
 
 ### Objectives
 The primary objective of this analysis is to gain actionable insights into education inequality by addressing the following:
-- **Trends**: Analyze how education inequality has changed over the years globally.
+- **Trends**: Analyze the evolution of global education inequality.
 - **Distributions**: Examine the spread and frequency of education inequality levels in 2021.
 - **Regional Comparisons**: Highlight differences in education inequality across various regions.
-- **Relationships**: Explore the correlation between HDI ranks and education inequality to understand socioeconomic impacts.
-- **Country-Specific Trends**: Focus on specific countries like Afghanistan, Angola, and Albania to understand localized patterns.
+- **Relationships**: Investigate the correlation between HDI ranks and educational inequality to understand the socioeconomic implications.
+- **Country-Specific Trends**: Focus on specific countries, such as Afghanistan, Angola, and Albania, to understand localized patterns.
 
 By using data visualization and statistical insights, this project aims to shed light on key factors influencing education inequality and provide a foundation for further research or policy formulation.
 
@@ -38,12 +38,26 @@ By using data visualization and statistical insights, this project aims to shed 
 ### 4. HDI Rank vs. Education Inequality (2021)
 - The scatter plot illustrates a **clear relationship** between HDI rank and education inequality:
 -![image](https://github.com/user-attachments/assets/4a385520-1ce1-4256-847e-f060811fe565)
-#### Fig4. **Source: The WorldBank Group** - The scatter plot demonstrates the relationship between HDI rank and education inequality in 2021. Countries with higher HDI ranks tend to have lower levels of education inequality, suggesting that better human development outcomes are associated with more equitable access to education. In contrast, countries with lower HDI ranks often face higher education inequality, reflecting the interconnected nature of development challenges. This pattern highlights the critical role of addressing socioeconomic inequalities to achieve education equity, reinforcing the importance of integrating education reforms with broader development strategies. 
+#### Fig4. **Source: The World Bank Group** - The scatter plot demonstrates the relationship between HDI rank and education inequality in 2021. Countries with higher HDI ranks tend to have lower levels of education inequality, suggesting that better human development outcomes are associated with more equitable access to education. In contrast, countries with lower HDI ranks often face higher education inequality, reflecting the interconnected nature of development challenges. This pattern highlights the critical role of addressing socioeconomic inequalities to achieve education equity, reinforcing the importance of integrating education reforms with broader development strategies. 
 
 ### 5. Education Inequality Trends for Selected Countries
 - The line chart comparing Afghanistan, Angola, and Albania highlights **country-specific trends**:
 -![image](https://github.com/user-attachments/assets/cc04cb74-60f7-4ead-bffe-c63a25e12bef)
-#### Fig5. Source: The WorldBank Group - This line chart compares education inequality trends for Afghanistan, Angola, and Albania from 2010 to 2021. Afghanistan has consistently maintained high levels of education inequality throughout the decade, showcasing persistent challenges in achieving equity in education. Angola experienced a sharp increase in inequality around 2014, stabilizing at higher levels thereafter, suggesting possible systemic or policy shifts during that period. Albania, in contrast, consistently demonstrates low levels of education inequality, reflecting robust education policies and successful measures to ensure equitable access to education. These country-specific trends underline the varying levels of success and challenges in tackling education inequality globally. 
+#### Fig5. Source: The World Bank Group - This line chart compares education inequality trends for Afghanistan, Angola, and Albania from 2010 to 2021. Afghanistan has consistently maintained high levels of educational inequality throughout the decade, showcasing persistent challenges in achieving educational equity. Angola experienced a sharp increase in inequality around 2014, stabilizing at higher levels thereafter, suggesting possible systemic or policy shifts during that period. Albania, in contrast, consistently demonstrates low levels of education inequality, reflecting robust education policies and successful measures to ensure equitable access to education. These country-specific trends underline the varying levels of success and challenges in tackling education inequality globally. 
+
+## Machine Learning Model: Predicting Human Development Groups
+To enhance the analysis, a Machine Learning model was developed to predict a country's Human Development Group (Low, Medium, High, Very High) based on education inequality data from 2010 to 2021. A Random Forest Classifier was trained using the 12 years of Education Inequality indicators as input features.
+
+The model achieved strong evaluation results, demonstrating its ability to accurately classify countries based on their historical patterns of education inequality. After training, a feature importance analysis was conducted, revealing that education inequality levels in recent years, particularly from 2015 to 2021, had the most significant influence on predicting a country's development status.
+
+The visualization of feature importance below highlights the key years driving the model’s decisions:
+
+(Insert your Feature Importance Chart here)
+
+This Machine Learning extension complements the exploratory analysis by confirming that improvements or deteriorations in education equity over the past decade are highly predictive of broader human development outcomes.
+
+![image](https://github.com/user-attachments/assets/2b317b8f-c1c9-4ebd-9890-23d3ae60c16d)
+
 
 ## 3. Methodology
 
@@ -78,9 +92,9 @@ The analysis of education inequality from 2010 to 2021 reveals several important
 ### Possible Implications
 These findings underscore the need for:
 - Continued investment in education policies, particularly in regions with higher inequality.
-- Integrated approaches that address socioeconomic factors alongside education access.
+- Integrated approaches that address socioeconomic factors alongside access to education.
 - Monitoring and evaluation to ensure sustainable progress toward education equity.
-- By understanding these patterns, policymakers, researchers, and organizations can better allocate resources and implement strategies to address education inequality globally.
+By understanding these patterns, policymakers, researchers, and organizations can more effectively allocate resources and implement strategies to address global education inequality.
 
 ## 5. Skills Demonstrated
 

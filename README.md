@@ -1,4 +1,4 @@
-# Analyzing Education Inequality Trends and Relationships (2010–2021)
+# Education Inequality & HDI Classification Using Machine Learning
 
 ## 1. Introduction
 Education inequality is a pressing issue that affects access to opportunities, societal development, and global progress. This analysis focuses on understanding trends, distributions, and relationships in education inequality over time, across different regions, and among specific countries.
